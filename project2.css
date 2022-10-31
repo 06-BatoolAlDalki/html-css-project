@@ -1,0 +1,1764 @@
+.links {
+    text-decoration: none;
+}
+
+.style:hover {
+    border: grey solid dashed;
+    color: #f4cccc;
+}
+
+.nav-bar-bar {
+    background-color: grey;
+    height: 50%;
+    font-size: 25px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* hover on the nav bar */
+.button1:hover {
+    background-color: #f4cccc;
+    color: #f4cccc;
+    text-decoration: none;
+}
+
+.button1 {
+    text-decoration: none;
+}
+
+.logo-size {
+    width: 140%;
+    height: 100px
+}
+
+.cv {
+    text-decoration: none;
+    color: white;
+
+}
+
+#download {
+    position: absolute;
+    top: 26rem;
+    left: 30rem;
+    background-color: #f4cccc;
+    border-radius: 8px;
+    border: none;
+    height: 35px;
+    margin-left: 300px;
+}
+
+.container-home {
+    height: 660px;
+    display: grid;
+    grid-template-rows: auto auto;
+    margin-right: 100px;
+    margin-left: 100px;
+    border: 3px dotted palevioletred;
+    position: relative;
+}
+
+.navbar-color {
+    background-color: grey;
+    height: 80px;
+    width: 100%;
+
+}
+
+.float {
+    float: right;
+    margin-left: 30%;
+}
+
+.pink-div1 {
+    background-color: #f4cccc;
+    opacity: 0.8;
+    margin-top: -5.5%;
+    height: 300px;
+}
+
+.grey-div2 {
+    background-color: gray;
+
+
+    height: 281px;
+}
+
+.Img-relative {
+    position: relative;
+}
+
+.Img-absolute {
+    position: absolute;
+}
+
+.Img-relative img {
+    margin-top: -86%;
+}
+
+
+.Big-img {
+    width: 500px;
+    height: 710px
+}
+
+/* body {
+    background-color: #f7e8e8;
+} */
+.midium-image {
+    margin-left: 550px;
+    margin-top: -92px;
+    opacity: 0.5;
+}
+
+.small-image {
+    margin-left: 950px;
+    margin-top: -432px;
+    opacity: 0.5
+}
+
+.batool-h2 {
+    margin-left: 55%;
+    margin-top: 5%;
+    color: white;
+}
+
+.fullstack-h4 {
+    margin-left: 48%;
+    margin-top: 3%;
+    color: white;
+}
+
+.fullstack-com {
+    margin-left: 52%;
+    margin-top: 1%;
+    color: white;
+}
+
+/* about me section */
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-right: 100px;
+    margin-left: -60px;
+    border: 3px dotted palevioletred;
+    background-color: #e6e6e6;
+}
+
+/* to represent col */
+.box {
+
+    height: 500px;
+    position: relative;
+
+}
+
+
+/* div1 */
+.box1 {
+    width: 40%;
+    position: absolute;
+    height: 100%;
+    margin-left: 0px;
+
+
+
+}
+
+/* div2  */
+.box2 {
+    width: 80%;
+    height: 40%;
+    opacity: 0.8;
+    position: absolute;
+    margin-left: 0px;
+
+}
+
+/* div 3 */
+.box3 {
+
+
+    height: 20%;
+    margin: 40px;
+    margin-left: 100px;
+    border: 3px solid grey;
+
+}
+
+.title {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Helvetica, sans-serif;
+    margin-top: -25px;
+    font-size: xx-large;
+    font-style: italic;
+    color: black;
+    font-weight: 1000;
+    margin-left: 10px;
+}
+
+
+/* style to col #2 in about me section */
+
+.box4 {
+    width: 60%;
+    height: 40%;
+    opacity: 0.5;
+    position: absolute;
+    border: 5px solid gray;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+.box5 {
+    width: 70%;
+    height: 40%;
+    opacity: 0.8;
+    position: absolute;
+    border: 5px solid pink;
+    margin-top: 200px;
+    margin-left: 35px;
+}
+
+/* education section */
+.container-education {
+
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin-right: 100px;
+    margin-left: 100px;
+    border: 3px dotted palevioletred;
+    background-color: #e6e6e6;
+    height: 500px;
+
+}
+
+.just-image {
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.just-name {
+    margin-top: 180px;
+    margin-left: 140px;
+}
+
+.div1-education {
+
+    background-color: gray;
+    margin-left: 70px;
+    width: 92%;
+    margin-top: 49px;
+    opacity: 0.8;
+
+    height: 40%;
+
+    position: absolute;
+
+}
+
+
+
+.div2-education {
+    position: absolute;
+    background-color: #f4cccc;
+    opacity: 0.8;
+    width: 88%;
+    height: 40%;
+    margin-left: 110px;
+    border: 3px solid pink;
+}
+
+.text-education {}
+
+/* new section soft skills */
+
+
+.container-soft-skills {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin-right: 100px;
+    margin-left: 100px;
+    border: 2px dotted palevioletred;
+    background-color: #e6e6e6;
+
+}
+
+/* div of pink */
+.div1-soft-skills {
+
+    width: 20%;
+    height: 70%;
+    background-color: #f4cccc;
+    opacity: 0.8;
+    float: right;
+    margin-top: 150px;
+
+
+
+}
+
+/* div of grey */
+.div3-soft-skills {
+
+    width: 50%;
+    height: 8%;
+    background-color: grey;
+    position: absolute;
+    margin-top: 400px;
+    opacity: 0.5;
+
+
+
+
+}
+
+/* image of time management */
+.div4-soft-skills {
+    width: 90%;
+    height: 60%;
+    background-image: url(R__3_-removebg-preview.png);
+    margin-top: 100px;
+
+}
+
+/* image of hard working */
+.div5-soft-skills {
+    width: 60%;
+    height: 40%;
+    background-image: url(R__5_-removebg-preview.png);
+    margin-left: 60px;
+
+
+}
+
+/* image of helping person */
+
+.div6-soft-skills {
+    width: 50%;
+    height: 40%;
+    background-image: url(helpful.PNG);
+    margin-left: 160px;
+    margin-top: 70px;
+}
+
+/* title of soft skills */
+.soft-title-style {
+    margin-left: 120px;
+    margin-bottom: 0px;
+    background-color: #f4cccc;
+    text-align: center;
+
+
+}
+
+
+#amburger-menu {
+    display: none;
+}
+
+
+
+
+/* <end of soft skills */
+
+
+/* technical skills  */
+
+.container-technical {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-right: 100px;
+    margin-left: 100px;
+    border: 2px dotted palevioletred;
+    background-color: #e6e6e6;
+
+}
+
+.div1-pink-technical-skills {
+    width: 200%;
+    height: 80%;
+    background-color: #f4cccc;
+
+    margin-top: 10%;
+    margin-left: 10%;
+    position: absolute;
+}
+
+.image-c {
+    width: 30%;
+    height: 20%;
+    margin-top: 20px;
+    margin-left: 60%;
+    position: relative;
+    animation: mymove 5s infinite;
+    animation-timing-function:
+        linear;
+}
+
+.image-cc {
+    width: 30%;
+    height: 20%;
+    margin-top: 10px;
+    float: right;
+    margin-left: 100px;
+    animation-timing-function: ease;
+    position: relative;
+}
+
+@keyframes mymove {
+    from {
+        right: 0px;
+    }
+
+    to {
+        right: 300px;
+    }
+}
+
+/* .image-python{ width:30%; height:"20%";
+    margin-top:5px ;float: right;} */
+
+/* .image-c+{width:30%; height=20%"
+        style="margin-top:10px ;float: right; margin-left: 100px;"} */
+
+.parag-in-technical {
+    margin-left: 440px;
+    margin-top: 140px;
+    font-weight: bold;
+}
+
+
+/* new section (Certificates) */
+
+.container-Certificates {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    margin-right: 100px;
+    margin-left: 100px;
+    border: 2px dotted palevioletred;
+    background-color: #e6e6e6;
+    height: 550px;
+}
+
+/* title of certificates */
+.div-pink-certificate {
+    width: 80%;
+    height: 80px;
+    position: absolute;
+    background-color: gray;
+    margin-top: 10px;
+    /* animation */
+    animation-name: example;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+.folwer {
+    width: 100%;
+    height: 540px;
+
+}
+
+/* list of certificates */
+.order-list-certificaties a {
+
+    text-decoration: none;
+    color: palevioletred;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* end of acheivement section */
+
+/* new section(experience section ) */
+.container-experience {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    margin-right: 100px;
+    margin-left: 100px;
+    border: 2px dotted palevioletred;
+    background-color: #e6e6e6;
+    height: 550px;
+}
+
+.div1-experence-title {
+    margin: 40px;
+    background-color: gray;
+    width: 60%;
+    height: 15%;
+    /* animation to tittle */
+    position: relative;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes example {
+    from {
+        left: 0px;
+    }
+
+    to {
+        left: 20px;
+        background-color: #f4cccc;
+    }
+}
+
+.div2-orange {
+    width: 90%;
+    height: 70%;
+    background-color: gray;
+    opacity: 0.8;
+    margin-left: 20%;
+}
+
+.div-pink {
+    width: 500px;
+    height: 400px;
+    background-color: #f4cccc;
+    opacity: 0.8;
+
+    margin-top: 60px;
+
+    position:
+        absolute;
+}
+
+#big-image:hover img {
+    width: 400px;
+    height: 200px;
+}
+
+#action-orange {
+    width: 200px;
+    height: 100px;
+}
+
+#big-image2:hover img {
+    width: 500px;
+    height: 300px;
+}
+
+/* end of experiences */
+/* begin of languages */
+.container-language-div {
+
+    margin-right: 100px;
+    margin-left: 100px;
+    border: 2px dotted palevioletred;
+    background-color: #e6e6e6;
+    height: 600px;
+}
+
+.title-languages-div {
+    margin-top: 40px;
+    margin-left: 30px;
+    background-color: gray;
+    width: 90%;
+    height: 40%;
+    position: absolute;
+
+
+
+}
+
+.display-lang {
+    display: inline-block;
+}
+
+.pink-div-under-language {
+
+    width: 100%;
+    background-color: #f4cccc;
+    height: 40%;
+    margin-top: 340px;
+}
+
+/* english-div  */
+.english-div {
+    position: relative;
+    margin-left: 200px;
+    margin-top: 200px;
+}
+
+/* arabic-div */
+.arabic-div {
+    position: relative;
+    margin-right: 150px;
+    margin-top: 74px;
+}
+
+.flower-border {
+    width: 450px;
+    height: 500px;
+}
+
+/* english paragraph  */
+.english-paragraph {
+    position: absolute;
+    width: 210px;
+    color: black;
+    top: 0;
+    left: 0;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 16px;
+    z-index: 5;
+    text-align: center;
+    ;
+    margin-left: 100px;
+}
+
+/* arabic-paragraph */
+
+.arabic-paragraph {
+    position: absolute;
+    width: 210px;
+    color: black;
+    top: 0;
+    left: 0;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 16px;
+    z-index: 5;
+    text-align: center;
+    margin-top: 130px;
+    margin-left: 130px;
+}
+
+/* end of experinces */
+
+/* new section references */
+.container-references {
+
+    margin-right: 100px;
+    margin-left: 100px;
+    border: 2px dotted palevioletred;
+    background-color: #e6e6e6;
+    height: 550px;
+    position: relative;
+
+
+}
+
+/* div to ttitle references */
+*/
+
+/* to change color of fontawsome */
+.link-references {
+    color: grey;
+}
+
+.moh-image {
+    width: 50%;
+    height: 30%;
+    margin-left: 25%;
+    margin-top: 15%;
+}
+
+.moh-h3 {
+    margin-left: 15%;
+    margin-top: 8%;
+}
+
+.linkedin-moh {
+    margin-left: 27%;
+}
+
+.whattsapp-moh {
+    margin-left: 20px;
+}
+
+.hala1-img {
+    width: 50%;
+    height: 30%;
+    margin-left: 25%;
+    margin-top: 15%;
+}
+
+.hala1-linkedin {
+    margin-left: 26%;
+}
+
+.hala1-whattsapp {
+    margin-left: 20px;
+}
+
+.h3-hala1 {
+    margin-left: 25%;
+    margin-top: 8%;
+}
+
+.hala2-img {
+    width: 50%;
+    height: 30%;
+    margin-left: -4%;
+    margin-top: 29%;
+}
+
+.h3-hala2 {
+    margin-left: 5%;
+    margin-top: 6%;
+}
+
+.hala2-linkedin {
+    margin-right: 1%;
+}
+
+.hala2-whattsapp {
+    margin-left: 20px;
+}
+
+/* Ala'a cotach */
+
+.hala3-img {
+    width: 50%;
+    height: 30%;
+    margin-left: 40%;
+    margin-top: -195%;
+
+}
+
+.h3-hala3 {
+    margin-left: 50%;
+    margin-top: -70%;
+}
+
+.hala3-linkedin {
+    margin-left: -0%;
+}
+
+.hala3-whattsapp {
+    margin-left: 20px;
+}
+
+/* position of cotach */
+.style-of-position {
+
+    text-align: center;
+
+}
+
+/* position of moh */
+.style-of-position1 {
+    margin-left: 45%;
+}
+
+/* end of references */
+.div1-references-title {
+    margin: 40px;
+    background-color: gray;
+    width: 50%;
+    height: 15%;
+    /* animation to tittle */
+    position: relative;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+/* moh-div */
+
+.moh-div {
+    width: 250px;
+    height: 350px;
+    border: 2px solid pink;
+    position: absolute;
+    margin-left: 210px;
+    margin-top: -400px;
+}
+
+/* hala1-div */
+.hala1-div {
+    width: 250px;
+    height: 350px;
+    border: 2px solid pink;
+    position: absolute;
+    margin-left: 489px;
+    margin-top: -400px;
+}
+
+
+/* hala2-div */
+.hala2-div {
+    width: 250px;
+    height: 350px;
+    border: 2px solid pink;
+    position: absolute;
+    margin-left: 760px;
+    margin-top: -400px;
+}
+
+/* ala'a-div */
+.alaa-div {
+    width: 250px;
+    height: 350px;
+    border: 2px solid pink;
+    position: absolute;
+    margin-left: 1058px;
+    margin-top: -400px;
+    ;
+}
+
+/* new section footer */
+.container-footer {
+    display: grid;
+
+    grid-template-columns: auto;
+    margin-right: 100px;
+    margin-left: 100px;
+    border: 2px dotted palevioletred;
+    background-color: gray;
+    height: 100px;
+
+}
+
+/* margin of footer */
+.margin-footer-left {
+    margin-left: 10%;
+    margin-top: 15px;
+}
+
+/* color of footer icon */
+.color-of-footer {
+    color: #f4cccc;
+}
+
+.logo-at-footer {
+    width: 150px;
+    float: right;
+    margin-right: 50px;
+    margin-top: -14px;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+    .nav-bar-bar {
+        height: 100%;
+    }
+
+    .logo-size {
+        width: 140%;
+        height: 60px
+    }
+
+    .navbar-color {
+        background-color: grey;
+        height: 250px;
+        width: 100%;
+
+    }
+
+    #hamburger-menu {
+        width: 50px;
+        height: 50px;
+        display: block;
+        border: none;
+        padding: 0px;
+        margin: 20px;
+        background: linear-gradient(to bottom,
+                #3D0E61, #3D0E61 20%,
+                white 20%, white 40%,
+                #3D0E61 40%, #3D0E61 60%,
+                white 60%, white 80%,
+                #3D0E61 80%, #3D0E61 100%);
+    }
+
+    #hamburger-menu #sidebar-menu {
+        visibilty: hidden;
+        position: fixed;
+        top: 0;
+        left: -250px;
+        width: 200px;
+        height: 100%;
+        background-color: #3D0E61;
+        padding: 0px 10px;
+        box-sizing: border-box;
+    }
+
+
+    /* home */
+    .container-home {
+        height: 500px;
+        margin-right: 0%;
+        margin-left: 0%;
+
+    }
+
+    .Big-img {
+        width: 200px;
+        height: 400px;
+        ;
+    }
+
+    .Img-relative img {
+        margin-top: -100%;
+    }
+
+
+    .midium-image {
+        display: none;
+    }
+
+    .small-image {
+        display: none;
+    }
+
+    .navbar-color {
+        /* background-color: grey; */
+        height: 100px;
+    }
+
+    .pink-div1 {
+        /* background-color: #f4cccc; */
+        /* opacity: 0.8; */
+        height: 240px;
+        margin-right: 0%;
+    }
+
+    .grey-div2 {
+        /* background-color: gray; */
+
+
+        height: 200px;
+    }
+
+    .grey-div2 h1 {
+        display: none;
+    }
+
+    /* design of im batool */
+    /* .h1-letsgo {
+        text-align: center;
+        margin-left: 300px;
+        font-weight: 400px;
+        margin-top: 60px;
+        color: white
+    } */
+
+    /* design of I'm full-stack */
+    .batool-h2 {
+        font-size: small;
+        margin-top: 30px;
+    }
+
+    .fullstack-h4 {
+        font-size: small;
+    }
+
+    .fullstack-com {
+        font-size: small;
+    }
+
+
+    /* about me section */
+    .container {
+
+        display: grid;
+        grid-template-columns: auto;
+        /* to make website fit on mobilephone , show boxes under each other */
+        margin-right: 0px;
+        margin-left: 0px;
+
+    }
+
+    .title {
+        font-size: smaller;
+        margin-top: -15px;
+    }
+
+    .container-education {
+
+        display: grid;
+        grid-template-columns: auto;
+        margin-right: 0px;
+        margin-left: 0px;
+        height: 1000px;
+
+
+    }
+
+    .just-image {
+        width: 200px;
+        height: 200px;
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+
+    .just-name {
+        margin-top: 90px;
+        margin-left: 110px;
+    }
+
+    .div1-education {
+        margin-left: 25px;
+        height: 50%;
+
+
+    }
+
+
+    .div2-education {
+
+        width: 100%;
+        height: 50%;
+        margin-left: 60px;
+
+    }
+
+    h1,
+    h2,
+    h3 {
+        font-size: medium;
+    }
+
+    .text-education {
+        font-size: small;
+    }
+
+    .container-soft-skills {
+
+        grid-template-columns: auto;
+        margin-right: 0px;
+        margin-left: 0px;
+        height: 700px;
+
+
+    }
+
+
+    .div1-soft-skills {
+
+        width: 10%;
+        height: 70%;
+
+
+        margin-top: 090px;
+        margin-right: 60px;
+
+
+    }
+
+
+    .div3-soft-skills {
+
+        height: 20px;
+        margin-top: 190px;
+
+    }
+
+    .div4-soft-skills {
+
+
+        margin-top: 50px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+
+    .div5-soft-skills {
+        width: 60%;
+        height: 40%;
+        background-image: url(R__5_-removebg-preview.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-left: 60px;
+        margin-top: 40px;
+
+
+    }
+
+    .div6-soft-skills {
+        width: 70%;
+        height: 100%;
+        background-image: url(helpful.PNG);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-left: 5px;
+        margin-top: 70px;
+    }
+
+
+    .soft-title-style {
+
+        margin-top: -30px;
+    }
+
+    /* end of soft-skills */
+
+
+    /* section of techincal skills */
+
+    .container-technical {
+        display: grid;
+        grid-template-columns: auto;
+        margin-left: 0px;
+        margin-right: 0px;
+
+    }
+
+    /* pink-div-technical */
+
+    .div1-pink-technical-skills {
+        width: 100%;
+        height: 80%;
+        margin-top: 0px;
+        margin-left: 0px;
+
+    }
+
+
+    .parag-in-technical {
+        margin-left: 30px;
+        margin-top: 80px;
+        font-size: small;
+    }
+
+    .image-c {
+
+        margin-top: 0px;
+
+
+
+    }
+
+
+    /* end of techicals skills */
+
+    /* new section (Certificates) */
+
+    .container-Certificates {
+
+        margin-right: 0px;
+        margin-left: 0px;
+        height: 1000px;
+
+    }
+
+    /* title of certificates */
+    .div-pink-certificate {
+        width: 150%;
+        height: 80px;
+
+    }
+
+    .folwer {
+        display: none;
+    }
+
+    .order-list-certificaties a {
+        margin-right: 0px;
+        margin-left: 0px;
+        font-size: small;
+    }
+
+
+    /* new section(experience section ) */
+    .container-experience {
+
+        grid-template-columns: auto;
+        margin-right: 0px;
+        margin-left: 0px;
+
+        height: 1000px;
+    }
+
+    .div1-experence-title {
+
+        margin-left: 0px;
+        width: 90%;
+
+    }
+
+    .div2-orange {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .div-pink {
+        width: 100%;
+
+
+
+    }
+
+
+    /* end of experience */
+
+    /* begin of languages */
+    .container-language-div {
+
+        margin-right: 0px;
+        margin-left: 0px;
+
+        height: 1300px;
+    }
+
+    .display-lang {
+        display: block;
+    }
+
+    /* .english-div {
+        position:relative;  margin-left: px;;
+    } */
+
+
+
+
+    .english-div {
+
+        margin-left: -90px;
+        margin-top: 200px;
+        width: 200px;
+    }
+
+    /* arabic-div */
+    .arabic-div {
+        position: relative;
+        margin-left: -90px;
+        margin-top: 74px;
+    }
+
+
+    .flower-border {
+        width: 350px;
+        height: 500px;
+        margin-left: 65px;
+    }
+
+    .english-paragraph {
+
+        margin-left: 120px;
+        margin-top: 200px;
+    }
+
+    .arabic-paragraph {
+        margin-left: 120px;
+    }
+
+    /* 
+    .english-image {
+        width: 100%;
+        height: 40%;
+
+        margin-top: 60%;
+        margin-left: 0%;
+    }
+
+    .arabic-image {
+        width: 100%;
+        height: 40%;
+
+        margin-top: 0%;
+    } */
+
+    /* end of languages */
+
+    /* begin of references */
+    .container-references {
+        margin-right: 0px;
+        margin-left: 0px;
+
+        height: 1700px;
+
+
+
+    }
+
+
+    /* moh-div */
+
+    .moh-div {
+
+
+
+        margin-left: 30px;
+        margin-top: -1400px;
+    }
+
+    /* hala1-div */
+    .hala1-div {
+
+        margin-left: 30px;
+        margin-top: -1040px;
+    }
+
+
+    /* hala2-div */
+    .hala2-div {
+
+        margin-left: 30px;
+        margin-top: -700px;
+    }
+
+    /* ala'a-div */
+    .alaa-div {
+
+
+        margin-left: 30px;
+        margin-top: -340px;
+        ;
+    }
+
+
+    /* title-references  */
+    .div1-references-title {
+        margin: 0px;
+        background-color: gray;
+        width: 100%;
+        height: 15%;
+
+    }
+
+    /* style of moh position */
+    /* new section footer */
+    .container-footer {
+
+
+
+        margin-right: 0px;
+        margin-left: 0px;
+
+
+
+    }
+
+    /* margin to footer me  */
+    .margin-footer-left {
+        margin-left: 20%;
+        margin-top: 15px;
+    }
+
+    .logo-at-footer {
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+    .nav-bar-bar {
+        height: 100%;
+    }
+
+    .logo-size {
+        width: 140%;
+        height: 60px
+    }
+
+
+    .Big-img {
+        width: 300px;
+        height: 700px;
+        ;
+    }
+
+    .Img-relative img {
+        margin-top: -140%;
+    }
+
+
+    .midium-image {
+        display: none;
+    }
+
+    .small-image {
+        display: none;
+    }
+
+    .navbar-color {
+        /* background-color: grey; */
+        height: 100px;
+    }
+
+    .pink-div1 {
+        /* background-color: #f4cccc; */
+        /* opacity: 0.8; */
+
+        width: 100%;
+        height: 277px;
+        margin-top: 3px;
+    }
+
+    .grey-div2 {
+        /* background-color: gray; */
+
+        width: 100%;
+        height: 280px;
+    }
+
+    .grey-div2 h1 {
+        font-size: large;
+    }
+
+
+
+    .batool-h2 {
+        font-size: medium;
+        margin-top: 30px;
+    }
+
+    .fullstack-h4 {
+        font-size: medium;
+        margin-right: 20px;
+    }
+
+    .fullstack-com {
+        font-size: medium;
+    }
+
+
+
+    /* end of home page  */
+
+    .container {
+
+
+        display: grid;
+        /* 2-dimention ,x-axis && y-axis */
+        grid-template-columns: auto;
+        /* to determine the number of contumn */
+        margin-left: 0px;
+        margin-right: 50px;
+    }
+
+    /* div2  */
+    .box2 {
+        width: 60%;
+        height: 40%;
+        opacity: 0.8;
+        position: absolute;
+
+    }
+
+    .title {
+        font-size: large;
+        margin-top: -15px;
+    }
+
+
+
+
+    .container-education {
+
+        display: grid;
+        grid-template-columns: auto;
+        height: 1200px;
+
+
+
+    }
+
+    .just-image {
+        width: 200px;
+        height: 200px;
+        margin-top: 20px;
+        margin-left: 155px;
+    }
+
+    .just-name {
+        margin-top: 180px;
+        margin-left: 210px;
+    }
+
+    .div1-education {
+        margin-left: 48px;
+        margin-top: -10px;
+    }
+
+
+    .div2-education {
+        margin-left: 70px;
+        margin-top: 20px;
+    }
+
+    h1,
+    h2,
+    h3 {
+        font-size: medium;
+    }
+
+
+
+
+    /* section of soft skills */
+
+    .div5-soft-skills {
+        width: 80%;
+
+        background-size: contain;
+        background-repeat: no-repeat;
+
+    }
+
+    /* helpful person     */
+    .div6-soft-skills {
+        width: 80%;
+        height: 50%;
+        background-image: url(helpful.PNG);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-left: 10px;
+    }
+
+
+    /* time management */
+    .div4-soft-skills {
+        width: 100%;
+        height: 60%;
+
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-top: 260px;
+
+    }
+
+    /* div of grey */
+    .div3-soft-skills {
+
+
+        margin-top: 430px;
+        opacity: 0.5;
+
+    }
+
+    /* div of pink  */
+    .div1-soft-skills {
+
+
+        height: 50%;
+
+
+
+
+    }
+
+
+    .container-technical {
+        display: grid;
+        grid-template-columns: auto;
+        height: 960px;
+
+    }
+
+    /* pink-div-technical */
+
+    .div1-pink-technical-skills {
+        width: 100%;
+        height: 80%;
+        margin-top: 0px;
+        margin-left: 0px;
+
+    }
+
+
+    .parag-in-technical {
+        margin-left: 30px;
+        margin-top: 10px;
+        font-size: medium;
+    }
+
+    .image-c {
+
+        margin-top: 0px;
+
+    }
+
+
+
+    /* new section (Certificates) */
+
+    .container-Certificates {
+
+        height: 800px;
+    }
+
+    .folwer {
+        width: 150%;
+        height: 750px;
+        margin-left: -150px;
+        opacity: 0.5;
+    }
+
+    .order-list-certificaties a {
+
+        text-decoration: none;
+        color: palevioletred;
+    }
+
+
+    /* end of achievement section */
+
+
+    /* new section(experience section ) */
+    .container-experience {
+
+        grid-template-columns: auto;
+
+
+        height: 1000px;
+    }
+
+    .div1-experence-title {
+
+        margin-left: 0px;
+        width: 100%;
+
+    }
+
+    .div2-orange {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .div-pink {
+        width: 100%;
+
+
+
+    }
+
+    /* end of experience section */
+
+
+    /* section of languages */
+    .english-image {
+
+
+        margin-top: 80%;
+        margin-left: 10%;
+    }
+
+    /* end of languages  */
+
+    /* begin of references  */
+
+    /* begin of references */
+    .container-references {
+        margin-right: 100px;
+        margin-left: 100px;
+
+        height: 1700px;
+
+
+
+    }
+
+
+    /* moh-div */
+
+    .moh-div {
+
+
+
+        margin-left: 32%;
+        margin-top: -1400px;
+    }
+
+    /* hala1-div */
+    .hala1-div {
+
+        margin-left: 32%;
+        margin-top: -1040px;
+    }
+
+
+    /* hala2-div */
+    .hala2-div {
+
+        margin-left: 32%;
+        margin-top: -700px;
+    }
+
+    /* ala'a-div */
+    .alaa-div {
+
+
+        margin-left: 32%;
+        margin-top: -340px;
+        ;
+    }
+
+
+    /* title-references  */
+    .div1-references-title {
+        margin: 0px;
+        background-color: gray;
+        width: 100%;
+        height: 15%;
+
+    }
+
+
+
+    /* begin of languages  */
+
+
+    /* begin of languages */
+    .container-language-div {
+
+        margin-right: 100px;
+        margin-left: 100px;
+
+        height: 1200px;
+    }
+
+    .display-lang {
+        display: block;
+    }
+
+    /* .english-div {
+        position:relative;  margin-left: px;;
+    } */
+
+
+
+
+    .english-div {
+
+        margin-left: 50px;
+        margin-top: 200px;
+        width: 200px;
+    }
+
+    /* arabic-div */
+    .arabic-div {
+        position: relative;
+        margin-left: 50px;
+        margin-top: 74px;
+    }
+
+
+    .flower-border {
+        width: 350px;
+        height: 500px;
+        margin-left: 65px;
+    }
+
+    .english-paragraph {
+
+        margin-left: 120px;
+        margin-top: 200px;
+    }
+
+    .arabic-paragraph {
+        margin-left: 120px;
+    }
+
+    .logo-at-footer {
+        width: 150px;
+        height: 100px;
+        float: right;
+
+    }
+
+
+
+}
