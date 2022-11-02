@@ -1,3 +1,13 @@
+.display-lang1 {
+    display: inline-block;
+}
+
+
+.aya {
+    display: flex;
+    flex-direction: row;
+}
+
 /* to Skills  */
 .flower-border1 {
     width: 430px;
@@ -25,12 +35,13 @@
 
 
 .fontaw {
-    color: gray
+    color: gray;
 }
 
 .fontaw:hover {
     color: #f4cccc;
-    font-size: x-large;
+    /* background-color: #f4cccc; */
+    /* font-size: x-large; */
 }
 
 .links {
@@ -104,6 +115,7 @@ a:hover {
     margin-left: 300px;
     color: black;
     margin-top: 10px;
+    text-decoration: none;
 }
 
 .container-home {
@@ -301,6 +313,10 @@ a:hover {
 .just-name {
     margin-top: 180px;
     margin-left: 140px;
+}
+
+.div-to-specialize {
+    margin-top: -42%;
 }
 
 .h1-languages-title {
@@ -709,13 +725,12 @@ a:hover {
     border: 2px dotted palevioletred;
     background-color: #e6e6e6;
     height: 550px;
-    position: relative;
+    /* position: relative; */
 
 
 }
 
 /* div to ttitle references */
-*/
 
 /* to change color of fontawsome */
 .link-references {
@@ -824,7 +839,7 @@ a:hover {
     width: 50%;
     height: 15%;
     /* animation to tittle */
-    position: relative;
+    /* position: relative; */
     /* animation-name: example;
     animation-duration: 3s;
     animation-fill-mode: forwards; */
@@ -836,41 +851,51 @@ a:hover {
     width: 250px;
     height: 350px;
     border: 2px solid pink;
-    position: absolute;
-    margin-left: 210px;
-    margin-top: -400px;
+    display: inline-block;
+    /* position: absolute; */
+    margin-left: 60px;
+    margin-top: 0px;
 }
 
 /* hala1-div */
 .hala1-div {
+    display: inline-block;
     width: 250px;
     height: 350px;
     border: 2px solid pink;
-    position: absolute;
-    margin-left: 489px;
-    margin-top: -400px;
+    /* position: absolute; */
+    /* margin-left: 489px;
+    margin-top: -400px; */
+    margin-left: 60px;
+    margin-top: 0px;
 }
 
 
 /* hala2-div */
 .hala2-div {
+    display: inline-block;
     width: 250px;
     height: 350px;
     border: 2px solid pink;
-    position: absolute;
-    margin-left: 760px;
-    margin-top: -400px;
+    /* position: absolute; */
+    /* margin-left: 760px;
+    margin-top: -400px; */
+    margin-left: 60px;
+    margin-top: 0px;
 }
 
 /* ala'a-div */
 .alaa-div {
+    display: inline-block;
     width: 250px;
     height: 350px;
     border: 2px solid pink;
-    position: absolute;
-    margin-left: 1058px;
-    margin-top: -400px;
-    ;
+    /* position: absolute; */
+    /* margin-left: 1058px;
+    margin-top: -400px; */
+    margin-left: 60px;
+    margin-top: 0px;
+
 }
 
 /* new section footer */
@@ -883,6 +908,7 @@ a:hover {
     border: 2px dotted palevioletred;
     background-color: gray;
     height: 100px;
+    width: 87%;
 
 }
 
@@ -914,7 +940,15 @@ a:hover {
     color: #f4cccc;
 }
 
+.dis1 {
+    display: flex;
+}
+
 @media only screen and (min-width: 0px) and (max-width: 480px) {
+    .dis1 {
+        display: block;
+    }
+
     .audio {
         width: 50px;
         margin-left: 0%;
@@ -1040,14 +1074,17 @@ a:hover {
     .batool-h2 {
         font-size: small;
         margin-top: 30px;
+        margin-left: 45%;
     }
 
     .fullstack-h4 {
         font-size: small;
+        margin-left: 20%;
     }
 
     .fullstack-com {
         font-size: small;
+        margin-left: 36%;
     }
 
 
@@ -1092,18 +1129,17 @@ a:hover {
 
     .div1-education {
         margin-left: 25px;
-        height: 50%;
-
-
+        height: 40%;
+        margin-top: -15%
     }
 
 
     .div2-education {
 
         width: 100%;
-        height: 50%;
+        height: 40%;
         margin-left: 0px;
-
+        margin-top: -25%;
     }
 
     h1,
@@ -1235,15 +1271,19 @@ a:hover {
 
     }
 
-    /* title of certificates */
-    .div-pink-certificate {
-        width: 150%;
-        height: 80px;
-
+    /* flower image */
+    .folwer {
+        width: 100%;
+        height: 50%;
+        margin-top: 70%;
+        margin-left: -1%;
     }
 
-    .folwer {
-        display: none;
+    /* title of certificates */
+    .div-pink-certificate {
+        width: 160%;
+        height: 80px;
+
     }
 
     .order-list-certificaties a {
@@ -1267,7 +1307,7 @@ a:hover {
     .div1-experence-title {
 
         margin-left: 0px;
-        width: 90%;
+        width: 100%;
 
     }
 
@@ -1292,11 +1332,12 @@ a:hover {
         margin-right: 0px;
         margin-left: 0px;
 
-        height: 1300px;
+        height: 1100px;
     }
 
     .display-lang {
         display: block;
+        margin-left: 12px;
     }
 
     /* .english-div {
@@ -1366,7 +1407,7 @@ a:hover {
         margin-right: 0px;
         margin-left: 0px;
 
-        height: 1700px;
+        height: 1660px;
 
 
 
@@ -1380,14 +1421,14 @@ a:hover {
 
 
         margin-left: 30px;
-        margin-top: -1400px;
+        margin-top: 50px;
     }
 
     /* hala1-div */
     .hala1-div {
 
         margin-left: 30px;
-        margin-top: -1040px;
+        margin-top: 25px;
     }
 
 
@@ -1395,7 +1436,7 @@ a:hover {
     .hala2-div {
 
         margin-left: 30px;
-        margin-top: -700px;
+        margin-top: 25px;
     }
 
     /* ala'a-div */
@@ -1403,7 +1444,7 @@ a:hover {
 
 
         margin-left: 30px;
-        margin-top: -340px;
+        margin-top: 25px;
         ;
     }
 
@@ -1412,8 +1453,8 @@ a:hover {
     .div1-references-title {
         margin: 0px;
         background-color: gray;
-        width: 90%;
-        height: 15%;
+        width: 100%;
+        height: 6%;
 
     }
 
@@ -1425,7 +1466,7 @@ a:hover {
 
         margin-right: 0px;
         margin-left: -0px;
-
+        width: 100%;
 
 
     }
@@ -1457,12 +1498,27 @@ a:hover {
 
     .time-text {
         margin-right: 0%;
+        margin-left: 12px;
     }
+
+
 
 }
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
 
+    .marT {
+        text-align: center;
+        margin-left: 0px;
+        width: 300px;
+    }
+
+    .marT1 {
+        text-align: center;
+        margin-left: 52px;
+        margin-top: 25px;
+        width: 300px;
+    }
 
     .container-home {
         height: 660px;
@@ -1549,8 +1605,8 @@ a:hover {
 
 
     .batool-h2 {
-        font-size: medium;
-        margin-top: 30px;
+        font-size: x-large;
+        margin-top: 70px;
     }
 
     .fullstack-h4 {
@@ -1560,6 +1616,7 @@ a:hover {
 
     .fullstack-com {
         font-size: medium;
+        margin-left: 55%;
     }
 
 
@@ -1610,24 +1667,28 @@ a:hover {
         width: 200px;
         height: 200px;
         margin-top: 0px;
-        margin-left: 255px;
+        margin-left: 270px;
     }
 
     .just-name {
         margin-top: 80px;
-        margin-left: 300px;
+        margin-left: 320px;
     }
 
     .div1-education {
         margin-left: 48px;
-        margin-top: -80px;
+        margin-top: -120px;
+        height: 200px;
     }
 
 
     .div2-education {
         margin-left: 70px;
-        margin-top: -50px;
+        margin-top: -90px;
+        height: 200px;
     }
+
+    .div-to-specialize {}
 
     h1,
     h2,
@@ -1744,10 +1805,10 @@ a:hover {
     }
 
     .folwer {
-        width: 150%;
-        height: 750px;
-        margin-left: -150px;
-        opacity: 0.5;
+        width: 100%;
+        height: 450px;
+        margin-left: 0px;
+        opacity: none;
     }
 
     .order-list-certificaties a {
@@ -1807,15 +1868,17 @@ a:hover {
     /* begin of references  */
 
     /* begin of references */
-    .container-references {
+    /* .aya {
         margin-right: 0px;
         margin-left: 0px;
 
         height: 1700px;
+display: grid;
+grid-template-columns: auto auto ;
+grid-template-rows: auto auto;
 
 
-
-    }
+    } */
 
 
     /* moh-div */
@@ -1823,32 +1886,37 @@ a:hover {
     .moh-div {
 
 
-
-        margin-left: 32%;
-        margin-top: -1400px;
+        /* display:inline-block; */
+        margin-left: 11%;
+        margin-top: 25px;
     }
 
     /* hala1-div */
     .hala1-div {
+        /* display:inline-block; */
+        margin-left: 11%;
+        margin-top: 25px;
 
-        margin-left: 32%;
-        margin-top: -1040px;
     }
 
+    .dis1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
 
     /* hala2-div */
     .hala2-div {
-
-        margin-left: 32%;
-        margin-top: -700px;
+        /* display:inline-block; */
+        margin-left: 11%;
+        margin-top: 25px;
     }
 
     /* ala'a-div */
     .alaa-div {
-
-
-        margin-left: 32%;
-        margin-top: -340px;
+        /* display:inline-block; */
+        /* display: inline-block; */
+        margin-left: 11%;
+        margin-top: 25px;
         ;
     }
 
@@ -1858,7 +1926,7 @@ a:hover {
         margin: 0px;
         background-color: gray;
         width: 100%;
-        height: 15%;
+        height: 6%;
 
     }
 
@@ -1884,7 +1952,9 @@ a:hover {
         position:relative;  margin-left: px;;
     } */
 
-
+    .display-lang1 {
+        display: inline-block;
+    }
 
 
     .english-div {
@@ -1923,20 +1993,28 @@ a:hover {
         margin-top: 200px;
     }
 
+    .english-paragraph1 {
+
+        margin-left: 200px;
+        margin-top: 200px;
+    }
+
     .arabic-paragraph {
         margin-left: 170px;
     }
 
+    .arabic-paragraph1 {
+        margin-left: 170px;
+    }
 
 
     /* new section footer */
     .container-footer {
         display: grid;
-        margin-top: 20px;
+        margin-top: 0px;
         margin-right: 0px;
         margin-left: 0px;
-
-
+        width: 100%
     }
 
     .logo-at-footer {
@@ -1950,7 +2028,7 @@ a:hover {
     .flower-border1 {
         width: 430px;
         height: 500px;
-        margin-left: 60px;
+        margin-left: 25%;
     }
 
 
@@ -1960,8 +2038,29 @@ a:hover {
     }
 
     .flower-border2 {
-        width: 345px;
+        width: 430px;
         height: 500px;
-        margin-left: 55%;
+        margin-left: 60%;
+    }
+
+    .aya {
+        display: flex;
+
+        flex-wrap: wrap;
+    }
+
+    .container-references {
+        width: 100%;
+        margin-right: 0px;
+        margin-left: 0px;
+
+        height: 825px;
+
+
+
+    }
+
+    .box {
+        height: 0px;
     }
 }
