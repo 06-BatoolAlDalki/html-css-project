@@ -1501,7 +1501,9 @@ a:hover {
         margin-left: 12px;
     }
 
-
+    .box {
+        height: 0%;
+    }
 
 }
 
